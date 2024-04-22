@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Assembly.png" />
+    <None Remove="Images\Class.png" />
+    <None Remove="Images\Constructor.png" />
+    <None Remove="Images\Delegate.png" />
+    <None Remove="Images\Enum.png" />
+    <None Remove="Images\EnumValue.png" />
+    <None Remove="Images\Event.png" />
+    <None Remove="Images\ExtensionMethod.png" />
+    <None Remove="Images\Field.png" />
+    <None Remove="Images\Interface.png" />
+    <None Remove="Images\Method.png" />
+    <None Remove="Images\Namespace.png" />
+    <None Remove="Images\Property.png" />
+    <None Remove="Images\Struct.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AssemblyExplorer\AssemblyExplorer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Assembly.png" />
+    <Resource Include="Images\Class.png" />
+    <Resource Include="Images\Constructor.png" />
+    <Resource Include="Images\Delegate.png" />
+    <Resource Include="Images\Enum.png" />
+    <Resource Include="Images\EnumValue.png" />
+    <Resource Include="Images\Event.png" />
+    <Resource Include="Images\ExtensionMethod.png" />
+    <Resource Include="Images\Field.png" />
+    <Resource Include="Images\Interface.png" />
+    <Resource Include="Images\Method.png" />
+    <Resource Include="Images\Namespace.png" />
+    <Resource Include="Images\Property.png" />
+    <Resource Include="Images\Struct.png" />
+  </ItemGroup>
+
+</Project>
